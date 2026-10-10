@@ -1,0 +1,10 @@
+{
+  "sites": [
+    "example.com",
+    {
+      "site": "shop.example.com",
+      "events": true,
+      "utm": ["utm_source", "utm_campaign"]
+    }
+  ]
+}

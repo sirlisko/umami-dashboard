@@ -1,0 +1,17 @@
+{
+  "name": "umami-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fill your Umami dashboard with several websites at a glance, from a JSON config.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "sites": "node --env-file-if-exists=.env src/cli.mjs sites",
+    "dashboard": "node --env-file-if-exists=.env src/cli.mjs dashboard",
+    "restore": "node --env-file-if-exists=.env src/cli.mjs restore",
+    "test": "node --test"
+  }
+}
